@@ -1,7 +1,7 @@
 #メソットの定義
 def fizzbuzz(num)
     
-  # 内容の記載
+  # 内容
   if num % 15 == 0 #15の倍数
     "FizzBuzz "
   elsif num % 3 == 0     #3の倍数
