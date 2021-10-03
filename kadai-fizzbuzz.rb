@@ -1,15 +1,15 @@
 #メソットの定義
-def FizzBuzz(num)
+def fizzbuzz(num)
     
   # 内容
   if num % 3 == 0     #3の倍数
-    puts "Fizz "
+    "Fizz "
   elsif num % 5 == 0  #5の倍数
-    puts "Buzz "
+    "Buzz"
   elsif num % 15 == 0 #15の倍数
-    puts "FizzBuzz "
+    "FizzBuzz "
   else                   #その他
-    puts num
+     num
   end
   
 end
@@ -17,5 +17,6 @@ end
 #メソットの実行
 num_max = 100
 (1..num_max).each do |num|
-  puts FizzBuzz(num)
-end
+  puts fizzbuzz(num)
+end 
+ 
