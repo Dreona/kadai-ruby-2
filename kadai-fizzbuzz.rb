@@ -14,9 +14,11 @@ def fizzbuzz(num)
   
 end
 
-#メソッドの実行
+#メソットを実行PG
+
 num_max = 100
 (1..num_max).each do |num|
   puts fizzbuzz(num)
 end 
+
  
