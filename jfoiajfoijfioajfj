@@ -1,0 +1,35 @@
+[1mdiff --git a/kadai-fizzbuzz.rb b/kadai-fizzbuzz.rb[m
+[1mindex 3e3d4c2..98c5306 100644[m
+[1m--- a/kadai-fizzbuzz.rb[m
+[1m+++ b/kadai-fizzbuzz.rb[m
+[36m@@ -1,15 +1,15 @@[m
+ #メソットの定義[m
+[31m-def FizzBuzz(num)[m
+[32m+[m[32mdef fizzbuzz(num)[m
+     [m
+   # 内容[m
+   if num % 3 == 0     #3の倍数[m
+[31m-    puts "Fizz "[m
+[32m+[m[32m    "Fizz "[m
+   elsif num % 5 == 0  #5の倍数[m
+[31m-    puts "Buzz "[m
+[32m+[m[32m    "Buzz"[m
+   elsif num % 15 == 0 #15の倍数[m
+[31m-    puts "FizzBuzz "[m
+[32m+[m[32m    "FizzBuzz "[m
+   else                   #その他[m
+[31m-    puts num[m
+[32m+[m[32m     num[m
+   end[m
+   [m
+ end[m
+[36m@@ -17,5 +17,5 @@[m [mend[m
+ #メソットの実行[m
+ num_max = 100[m
+ (1..num_max).each do |num|[m
+[31m-  puts FizzBuzz(num)[m
+[31m-end[m
+\ No newline at end of file[m
+[32m+[m[32m  puts fizzbuzz(num)[m
+[32m+[m[32mend[m[41m [m
+\ No newline at end of file[m
